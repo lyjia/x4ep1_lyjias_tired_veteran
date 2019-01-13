@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="x4ep1_gamestart_lyjiastiredveteran" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+	<cues>
+		<cue name="LyjiasTiredVeteranStart" module="x4ep1_gamestart_lyjiastiredveteran">
+      <conditions>
+        <event_cue_signalled cue="md.Setup.GameStart" />
+      </conditions>
+      <actions>
+        <set_faction_known faction="faction.argon" known="false"/>
+        <set_faction_known faction="faction.teladi" known="false"/>
+        <set_faction_known faction="faction.antigone" known="false"/>
+        <set_faction_known faction="faction.ministry" known="false"/>
+
+        <set_faction_known faction="faction.alliance" known="true" />
+        <set_faction_known faction="faction.hatikvah" known="true" />
+        <set_faction_known faction="faction.holyorder" known="true" />
+        <set_faction_known faction="faction.scaleplate" known="true" />
+        <set_faction_known faction="faction.xenon" known="true" />
+        <set_faction_known faction="faction.khaak" known="true" />
+
+        <set_faction_relation faction="faction.player" otherfaction="faction.holyorder" value="-0.02"/>
+        <set_faction_relation faction="faction.holyorder" otherfaction="faction.player" value="-0.02"/>
+
+        <set_faction_relation faction="faction.player" otherfaction="faction.paranid" value="0.09"/>
+        <set_faction_relation faction="faction.paranid" otherfaction="faction.player" value="0.09"/>
+
+        <install_software object="player.ship" software="ware.software_dockmk2" />
+      </actions>
+    </cue>
+	</cues>
+</mdscript>

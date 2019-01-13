@@ -1,0 +1,146 @@
+<diff>
+	<add sel="/gamestarts">
+		<gamestart id="x4ep1_gamestart_lyjiastiredveteran" name="The Tired Veteran" description="'Join the Space Force!' they said. 'See the universe!' they said! Well... you did all that. Then the war ended: a cease-fire with the Holy Order, the so-called Second Accord of the Sacred Relic. Rather than stay and fight the Xenon or those Kha'ak fuckers, you've decided to take an honorable discharge and spend your accumulated savings on a surplus mil-spec Nemesis and a couple of station blueprints. Everyone knows the cease-fire won't last long, but now you're a free agent. What will you do? Where will you go? Who will you kill?" image="gamestart_1" intro="gamestart5">
+      	
+      	<info>
+          <item name="{1021,8}" value="The Tired Veteran" /> <!-- Name -->
+          <item name="{1021,1}" value="Trinity Sanctum" /> <!-- Location -->
+          <item name="{1021,2}" value="Nemesis Vanguard" /> <!-- Starting Ship -->
+          <item name="{1021,3}" value="61,252 cr" /> <!-- Cash -->
+          <item name="{1021,4}" value="" /> <!-- Equipment -->
+          <item name="{1001,2690}" value="Lyjia" /> <!-- Author -->
+          <item name="{1001,2655}" value="0.1" /> <!-- Version -->
+          <item name="{1001,2691}" value="19 Jan 2019" /> <!-- Date -->
+          <item name="{1021,9950}" value="My First Gamestart. Hello world!" /> <!-- Notes -->
+      	</info>
+	    
+	    <location galaxy="xu_ep2_universe_macro" zone="zone001_cluster_47_sector001_macro">
+		    <position x="-24299.879" y="-249.256" z="-13310.063"/>
+	      	<rotation yaw="-61.50683" pitch="14.70719" roll="43.06808"/>
+	    </location>
+		
+		<player macro="character_player_tutorial_macro" money="61252" name="Dirkesarumek Diggleromolkon">
+				<ship macro="ship_par_m_corvette_01_a_macro">
+					<loadout>
+						<macros>
+							<engine macro="engine_par_m_allround_01_mk1_macro" path="../con_engine_01" />
+							<shield macro="shield_par_m_standard_01_mk1_macro" path="../con_shield_front_r" />
+							<shield macro="shield_par_m_standard_01_mk1_macro" path="../con_shield_front_l" />
+							<weapon macro="weapon_gen_m_laser_01_mk2_macro" path="../con_primaryweapon_01"/>
+							<weapon macro="weapon_gen_m_laser_01_mk2_macro" path="../con_primaryweapon_02"/>
+							<weapon macro="weapon_gen_m_laser_01_mk2_macro" path="../con_primaryweapon_03"/>
+							<weapon macro="weapon_gen_m_laser_01_mk2_macro" path="../con_primaryweapon_04"/>
+							<weapon macro="weapon_gen_m_laser_01_mk2_macro" path="../con_primaryweapon_05"/>
+							<turret macro="turret_par_m_laser_01_mk1_macro" path="../con_turret_l01"/>
+							<turret macro="turret_par_m_laser_01_mk1_macro" path="../con_turret_r01"/>
+						</macros>
+						<virtualmacros>
+							<thruster macro="thruster_gen_m_allround_01_mk1_macro" />
+						</virtualmacros>
+						<ammunition>
+							<ammunition macro="eq_arg_satellite_01_macro" exact="10" optional="true"/>
+							<ammunition macro="eq_par_resourceprobe_01_macro" exact="10" optional="true" />
+						</ammunition>
+						<software>
+							<software ware="software_flightassistmk1" />
+							<software ware="software_dockmk2" />
+							<software ware="software_scannerlongrangemk2" />
+							<software ware="software_scannerobjectmk2" />
+							<software ware="software_tparetmk1" />
+							<software ware="software_trademk1" />
+						</software>
+					</loadout>
+				</ship>
+				<inventory>
+					<ware ware="inv_timewarp" amount="1" />
+					<ware ware="inv_interfaceunit" amount="6" />
+			        <ware ware="weapon_gen_spacesuit_repairlaser_01_mk1" amount="1" />
+			        <ware ware="weapon_gen_spacesuit_demolition_01_mk1"/>
+			        <ware ware="weapon_gen_spacesuit_laser_01_mk1"/>
+					<ware ware="software_scannerobjectmk3" amount="1" />
+				</inventory>
+				<blueprints>
+					<ware ware="paintmod_0006"/>
+					<ware ware="paintmod_0048"/>
+					<ware ware="paintmod_0049"/>
+					<ware ware="paintmod_0050"/>
+					<ware ware="module_par_conn_base_01"/>
+					<ware ware="module_par_conn_base_02"/>
+					<ware ware="module_par_conn_base_03"/>
+					<ware ware="module_par_conn_vertical_01"/>
+					<ware ware="module_par_conn_vertical_02"/>
+					<ware ware="module_par_conn_cross_01"/>
+					<ware ware="module_par_dock_m_01"/>
+					<ware ware="module_par_dock_m_02"/>
+					<ware ware="module_par_pier_l_02"/>
+					<ware ware="module_par_stor_container_s_01"/>
+					<ware ware="module_par_stor_solid_s_01"/>
+					<ware ware="module_par_stor_liquid_s_01"/>
+					<ware ware="module_par_stor_container_m_01"/>
+					<ware ware="module_par_stor_solid_m_01"/>
+					<ware ware="module_par_stor_liquid_m_01"/>
+					<ware ware="module_gen_prod_refinedmetals_01"/>
+					<ware ware="module_gen_prod_energycells_01"/>
+					<ware ware="module_gen_prod_siliconwafers_01"/>
+				</blueprints>
+		        <research>
+		          <ware ware="research_radioreceiver"/>
+		          <ware ware="research_sensorbooster"/>
+		          <ware ware="research_tradeinterface"/>
+		          <ware ware="research_module_build"/>
+		          <ware ware="research_module_defence"/>
+		          <ware ware="research_module_dock"/>
+		          <ware ware="research_module_habitation"/>
+		          <ware ware="research_module_production"/>
+		          <ware ware="research_module_storage"/>
+		          <ware ware="research_module_venture"/>
+		          <ware ware="research_mod_engine_mk1"/>
+		          <ware ware="research_mod_engine_mk2"/>
+		          <ware ware="research_mod_engine_mk3"/>
+		          <ware ware="research_mod_shield_mk1"/>
+		          <ware ware="research_mod_shield_mk2"/>
+		          <ware ware="research_mod_shield_mk3"/>
+		          <ware ware="research_mod_ship_mk1"/>
+		          <ware ware="research_mod_ship_mk2"/>
+		          <ware ware="research_mod_ship_mk3"/>
+		          <ware ware="research_mod_weapon_mk1"/>
+		          <ware ware="research_mod_weapon_mk2"/>
+		          <ware ware="research_mod_weapon_mk3"/>
+		          <ware ware="research_teleportation"/>
+		          <ware ware="research_teleportation_range_01"/>
+		          <ware ware="research_teleportation_range_02"/>
+		          <!--  <ware ware="research_teleportation_range_03"/>  Removed for plot mission -->
+		        </research>
+		        <timeline>
+		          <entry ref="earth_jumpgates" />
+		          <entry ref="winterblossom" />
+		          <entry ref="terraformer_project_starts" />
+		          <entry ref="terraformer_project_ends" />
+		          <entry ref="terraformer_war" />
+		          <entry ref="first_contact_paranid" />
+		          <entry ref="foundation_federation" />
+		          <entry ref="first_contact_boron" />
+		          <entry ref="first_contact_split" />
+		          <entry ref="cold_war" />
+		          <entry ref="first_contact_teladi" />
+		          <entry ref="xenon_evolution" />
+		          <entry ref="kyle_brennan_arrival" />
+		          <entry ref="khaak_arrival" />
+		          <entry ref="presidents_end" />
+		          <entry ref="omicron_lyrae" />
+		          <entry ref="race_to_find_earth" />
+		          <entry ref="terran_khaak_assistance" />
+		          <entry ref="operation_final_fury" />
+		          <entry ref="agi_tension" />
+		          <entry ref="terran_conflict" />
+		          <entry ref="torus_aeternal" />
+		          <entry ref="warp_instability" />
+		          <entry ref="gate_shutdown" />
+		          <entry ref="alliance_of_the_word" />
+		          <entry ref="gate_reopening" />
+		          <entry ref="gate_stabilisation" />
+		        </timeline>
+			</player>
+		</gamestart>
+	</add>
+</diff>
