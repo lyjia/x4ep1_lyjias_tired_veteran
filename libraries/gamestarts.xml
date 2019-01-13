@@ -7,7 +7,7 @@
           <item name="{1021,1}" value="Trinity Sanctum VII" /> <!-- Location -->
           <item name="{1021,2}" value="Perseus Vanguard" /> <!-- Starting Ship -->
           <item name="{1021,3}" value="61,252 cr" /> <!-- Cash -->
-          <item name="{1021,4}" value="All research completed (except final teleportation). Ore Refinery, Silicon Wafers, and container storage unlocked." /> <!-- Equipment -->
+          <item name="{1021,4}" value="All research completed (except final teleportation). SETA unlocked. Ore Refinery, Silicon Wafers, and container storage unlocked. Player ship starts with most software including Docking Computer Mk II." /> <!-- Equipment -->
           <item name="{1001,2690}" value="Lyjia" /> <!-- Author -->
           <item name="{1001,2655}" value="0.1" /> <!-- Version -->
           <item name="{1001,2691}" value="19 Jan 2019" /> <!-- Date -->
