@@ -1,7 +1,9 @@
 # The Tired Veteran
 
 Mod for X4: Foundations
+
 By Lyjia
+
 Homepage: https://github.com/lyjia/x4ep1_lyjias_tired_veteran/
 
 Adds new gamestart, "The Tired Veteran"
