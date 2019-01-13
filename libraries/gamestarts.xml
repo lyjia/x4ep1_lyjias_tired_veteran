@@ -1,11 +1,11 @@
 <diff>
 	<add sel="/gamestarts">
-		<gamestart id="x4ep1_gamestart_lyjiastiredveteran" name="The Tired Veteran" description="'Join the Space Force!' they said. 'See the universe!' they said! Well... you did all that. Then the war ended: a cease-fire with the Holy Order, the so-called Second Accord of the Sacred Relic. Rather than stay and fight the Xenon (or those Kha'ak fuckers), you've decided to take an honorable discharge and spend your accumulated savings on a surplus mil-spec Perseus and a couple of station blueprints. Everyone knows the cease-fire won't last long, but now you're a free agent. What will you do? Where will you go? Who will you kill?" image="gamestart_1" intro="gamestart5">
+		<gamestart id="x4ep1_gamestart_lyjiastiredveteran" name="The Tired Veteran" description="'Join the Space Force!' they said. 'See the universe!' they said! Well... you did all that. Then the war ended: a cease-fire with the Holy Order, the so-called 'Second Accord of the Sacred Relic.' Rather than stay and fight the Xenon (or those Kha'ak fuckers), you've decided to take an honorable discharge and spend your accumulated savings on a surplus mil-spec Theseus and a couple of station blueprints. Everyone knows the cease-fire won't last long, but now you're a free agent. What will you do? Where will you go? Who will you kill?" image="gamestart_1" intro="gamestart5">
       	
       	<info>
           <item name="{1021,8}" value="Xadasczovdhot" /> <!-- Name -->
           <item name="{1021,1}" value="Trinity Sanctum VII" /> <!-- Location -->
-          <item name="{1021,2}" value="Perseus Vanguard" /> <!-- Starting Ship -->
+          <item name="{1021,2}" value="Theseus Vanguard" /> <!-- Starting Ship -->
           <item name="{1021,3}" value="61,252 cr" /> <!-- Cash -->
           <item name="{1021,4}" value="All research completed (except final teleportation). SETA unlocked. Ore Refinery, Silicon Wafers, and container storage unlocked. Player ship starts with most software including Docking Computer Mk II." /> <!-- Equipment -->
           <item name="{1001,2690}" value="Lyjia" /> <!-- Author -->
